@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.adnathanail.mirandaintellijplugin.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.adnathanail.mirandaintellijplugin.MyBundle
 
 class MyApplicationService {
 
