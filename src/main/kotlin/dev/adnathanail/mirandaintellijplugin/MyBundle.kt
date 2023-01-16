@@ -1,4 +1,4 @@
-package com.github.adnathanail.mirandaintellijplugin
+package dev.adnathanail.mirandaintellijplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

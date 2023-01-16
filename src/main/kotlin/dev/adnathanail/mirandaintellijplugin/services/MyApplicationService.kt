@@ -1,6 +1,6 @@
-package com.github.adnathanail.mirandaintellijplugin.services
+package dev.adnathanail.mirandaintellijplugin.services
 
-import com.github.adnathanail.mirandaintellijplugin.MyBundle
+import dev.adnathanail.mirandaintellijplugin.MyBundle
 
 class MyApplicationService {
 

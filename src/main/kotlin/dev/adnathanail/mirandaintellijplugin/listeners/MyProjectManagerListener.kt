@@ -1,9 +1,9 @@
-package com.github.adnathanail.mirandaintellijplugin.listeners
+package dev.adnathanail.mirandaintellijplugin.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.adnathanail.mirandaintellijplugin.services.MyProjectService
+import dev.adnathanail.mirandaintellijplugin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
