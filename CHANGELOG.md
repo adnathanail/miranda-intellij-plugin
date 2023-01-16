@@ -4,4 +4,4 @@
 
 ## [Unreleased]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Added Miranda syntax highlighting (with massive thanks to [dennisylyung/miranda-intellij](https://github.com/dennisylyung/miranda-intellij))
