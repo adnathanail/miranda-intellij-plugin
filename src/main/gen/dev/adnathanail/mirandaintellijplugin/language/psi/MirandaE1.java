@@ -5,6 +5,6 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 
-public interface MirandaProperty extends PsiElement {
+public interface MirandaE1 extends PsiElement {
 
 }

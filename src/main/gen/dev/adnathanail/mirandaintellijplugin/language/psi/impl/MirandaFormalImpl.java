@@ -11,20 +11,44 @@ import static dev.adnathanail.mirandaintellijplugin.language.psi.MirandaTypes.*;
 import com.intellij.extapi.psi.ASTWrapperPsiElement;
 import dev.adnathanail.mirandaintellijplugin.language.psi.*;
 
-public class MirandaPropertyImpl extends ASTWrapperPsiElement implements MirandaProperty {
+public class MirandaFormalImpl extends ASTWrapperPsiElement implements MirandaFormal {
 
-  public MirandaPropertyImpl(@NotNull ASTNode node) {
+  public MirandaFormalImpl(@NotNull ASTNode node) {
     super(node);
   }
 
   public void accept(@NotNull MirandaVisitor visitor) {
-    visitor.visitProperty(this);
+    visitor.visitFormal(this);
   }
 
   @Override
   public void accept(@NotNull PsiElementVisitor visitor) {
     if (visitor instanceof MirandaVisitor) accept((MirandaVisitor)visitor);
     else super.accept(visitor);
+  }
+
+  @Override
+  @Nullable
+  public MirandaConstructor getConstructor() {
+    return findChildByClass(MirandaConstructor.class);
+  }
+
+  @Override
+  @Nullable
+  public MirandaLiteral getLiteral() {
+    return findChildByClass(MirandaLiteral.class);
+  }
+
+  @Override
+  @Nullable
+  public MirandaPatList getPatList() {
+    return findChildByClass(MirandaPatList.class);
+  }
+
+  @Override
+  @Nullable
+  public MirandaVarDecl getVarDecl() {
+    return findChildByClass(MirandaVarDecl.class);
   }
 
 }
