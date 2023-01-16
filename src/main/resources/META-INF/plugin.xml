@@ -9,7 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <fileType
           name="Miranda File"
-          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaFileType"
+          implementationClass="dev.adnathanail.mirandaintellijplugin.MirandaFileType"
           fieldName="INSTANCE"
           language="Miranda"
           extensions="m"/>

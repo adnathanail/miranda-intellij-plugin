@@ -1,5 +1,5 @@
 
-package dev.adnathanail.mirandaintellijplugin.language;
+package dev.adnathanail.mirandaintellijplugin;
 
 import com.intellij.lang.Language;
 

@@ -1,4 +1,4 @@
-package dev.adnathanail.mirandaintellijplugin.language;
+package dev.adnathanail.mirandaintellijplugin;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
