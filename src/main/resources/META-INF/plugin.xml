@@ -17,5 +17,9 @@
         <lang.parserDefinition
           language="Miranda"
           implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaParserDefinition"/>
+
+        <lang.syntaxHighlighterFactory
+            language="Miranda"
+            implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaSyntaxHighlighterFactory"/>
     </extensions>
 </idea-plugin>
