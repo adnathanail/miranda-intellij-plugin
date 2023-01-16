@@ -1,18 +1,17 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.adnathanail.mirandaintellijplugin</id>
+    <id>dev.adnathanail.mirandaintellijplugin</id>
     <name>Miranda Language Support</name>
     <vendor>adnathanail</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="dev.adnathanail.mirandaintellijplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="dev.adnathanail.mirandaintellijplugin.services.MyProjectService"/>
+        <fileType
+          name="Miranda File"
+          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaFileType"
+          fieldName="INSTANCE"
+          language="Miranda"
+          extensions="m"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="dev.adnathanail.mirandaintellijplugin.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
