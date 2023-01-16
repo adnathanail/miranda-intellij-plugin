@@ -1,4 +1,4 @@
-package dev.adnathanail.mirandaintellijplugin;
+package dev.adnathanail.mirandaintellijplugin.language;
 
 import com.intellij.openapi.util.IconLoader;
 

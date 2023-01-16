@@ -9,9 +9,13 @@
     <extensions defaultExtensionNs="com.intellij">
         <fileType
           name="Miranda File"
-          implementationClass="dev.adnathanail.mirandaintellijplugin.MirandaFileType"
+          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaFileType"
           fieldName="INSTANCE"
           language="Miranda"
           extensions="m"/>
+
+        <lang.parserDefinition
+          language="Miranda"
+          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaParserDefinition"/>
     </extensions>
 </idea-plugin>

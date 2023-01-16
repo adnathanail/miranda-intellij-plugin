@@ -1,0 +1,20 @@
+{
+  parserClass="dev.adnathanail.mirandaintellijplugin.language.parser.MirandaParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="Miranda"
+  psiImplClassSuffix="Impl"
+  psiPackage="dev.adnathanail.mirandaintellijplugin.language.psi"
+  psiImplPackage="dev.adnathanail.mirandaintellijplugin.language.psi.impl"
+
+  elementTypeHolderClass="dev.adnathanail.mirandaintellijplugin.language.psi.MirandaTypes"
+  elementTypeClass="dev.adnathanail.mirandaintellijplugin.language.psi.MirandaElementType"
+  tokenTypeClass="dev.adnathanail.mirandaintellijplugin.language.psi.MirandaTokenType"
+}
+
+simpleFile ::= item_*
+
+private item_ ::= (property|COMMENT|CRLF)
+
+property ::= (KEY? SEPARATOR VALUE?) | KEY
