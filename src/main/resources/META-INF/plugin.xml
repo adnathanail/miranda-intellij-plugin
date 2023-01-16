@@ -8,18 +8,18 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <fileType
-          name="Miranda File"
-          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaFileType"
-          fieldName="INSTANCE"
-          language="Miranda"
-          extensions="m"/>
+                name="Miranda File"
+                implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaFileType"
+                fieldName="INSTANCE"
+                language="Miranda"
+                extensions="m"/>
 
         <lang.parserDefinition
-          language="Miranda"
-          implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaParserDefinition"/>
+                language="Miranda"
+                implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaParserDefinition"/>
 
         <lang.syntaxHighlighterFactory
-            language="Miranda"
-            implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaSyntaxHighlighterFactory"/>
+                language="Miranda"
+                implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaSyntaxHighlighterFactory"/>
     </extensions>
 </idea-plugin>

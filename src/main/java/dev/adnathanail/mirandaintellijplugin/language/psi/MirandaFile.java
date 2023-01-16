@@ -9,19 +9,19 @@ import org.jetbrains.annotations.NotNull;
 
 public class MirandaFile extends PsiFileBase {
 
-  public MirandaFile(@NotNull FileViewProvider viewProvider) {
-    super(viewProvider, MirandaLanguage.INSTANCE);
-  }
+    public MirandaFile(@NotNull FileViewProvider viewProvider) {
+        super(viewProvider, MirandaLanguage.INSTANCE);
+    }
 
-  @NotNull
-  @Override
-  public FileType getFileType() {
-    return MirandaFileType.INSTANCE;
-  }
+    @NotNull
+    @Override
+    public FileType getFileType() {
+        return MirandaFileType.INSTANCE;
+    }
 
-  @Override
-  public String toString() {
-    return "Miranda File";
-  }
+    @Override
+    public String toString() {
+        return "Miranda File";
+    }
 
 }

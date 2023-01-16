@@ -7,8 +7,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class MirandaElementType extends IElementType {
 
-  public MirandaElementType(@NotNull @NonNls String debugName) {
-    super(debugName, MirandaLanguage.INSTANCE);
-  }
+    public MirandaElementType(@NotNull @NonNls String debugName) {
+        super(debugName, MirandaLanguage.INSTANCE);
+    }
 
 }

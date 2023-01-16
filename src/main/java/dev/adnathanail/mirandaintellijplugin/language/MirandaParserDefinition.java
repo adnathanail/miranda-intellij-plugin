@@ -18,48 +18,48 @@ import org.jetbrains.annotations.NotNull;
 
 public class MirandaParserDefinition implements ParserDefinition {
 
-  public static final IFileElementType FILE = new IFileElementType(MirandaLanguage.INSTANCE);
+    public static final IFileElementType FILE = new IFileElementType(MirandaLanguage.INSTANCE);
 
-  @NotNull
-  @Override
-  public Lexer createLexer(Project project) {
-    return new MirandaLexerAdapter();
-  }
+    @NotNull
+    @Override
+    public Lexer createLexer(Project project) {
+        return new MirandaLexerAdapter();
+    }
 
-  @NotNull
-  @Override
-  public TokenSet getCommentTokens() {
-    return MirandaTokenSets.COMMENTS;
-  }
+    @NotNull
+    @Override
+    public TokenSet getCommentTokens() {
+        return MirandaTokenSets.COMMENTS;
+    }
 
-  @NotNull
-  @Override
-  public TokenSet getStringLiteralElements() {
-    return TokenSet.EMPTY;
-  }
+    @NotNull
+    @Override
+    public TokenSet getStringLiteralElements() {
+        return TokenSet.EMPTY;
+    }
 
-  @NotNull
-  @Override
-  public PsiParser createParser(final Project project) {
-    return new MirandaParser();
-  }
+    @NotNull
+    @Override
+    public PsiParser createParser(final Project project) {
+        return new MirandaParser();
+    }
 
-  @NotNull
-  @Override
-  public IFileElementType getFileNodeType() {
-    return FILE;
-  }
+    @NotNull
+    @Override
+    public IFileElementType getFileNodeType() {
+        return FILE;
+    }
 
-  @NotNull
-  @Override
-  public PsiFile createFile(@NotNull FileViewProvider viewProvider) {
-    return new MirandaFile(viewProvider);
-  }
+    @NotNull
+    @Override
+    public PsiFile createFile(@NotNull FileViewProvider viewProvider) {
+        return new MirandaFile(viewProvider);
+    }
 
-  @NotNull
-  @Override
-  public PsiElement createElement(ASTNode node) {
-    return MirandaTypes.Factory.createElement(node);
-  }
+    @NotNull
+    @Override
+    public PsiElement createElement(ASTNode node) {
+        return MirandaTypes.Factory.createElement(node);
+    }
 
 }

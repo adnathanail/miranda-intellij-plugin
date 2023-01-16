@@ -8,10 +8,10 @@ import org.jetbrains.annotations.NotNull;
 
 public class MirandaSyntaxHighlighterFactory extends SyntaxHighlighterFactory {
 
-  @NotNull
-  @Override
-  public SyntaxHighlighter getSyntaxHighlighter(Project project, VirtualFile virtualFile) {
-    return new MirandaSyntaxHighlighter();
-  }
+    @NotNull
+    @Override
+    public SyntaxHighlighter getSyntaxHighlighter(Project project, VirtualFile virtualFile) {
+        return new MirandaSyntaxHighlighter();
+    }
 
 }

@@ -6,6 +6,6 @@ import javax.swing.*;
 
 public class MirandaIcons {
 
-  public static final Icon FILE = IconLoader.getIcon("/icons/mira-logo.png", MirandaIcons.class);
+    public static final Icon FILE = IconLoader.getIcon("/icons/mira-logo.png", MirandaIcons.class);
 
 }

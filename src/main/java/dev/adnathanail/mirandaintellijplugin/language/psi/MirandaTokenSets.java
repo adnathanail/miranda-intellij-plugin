@@ -4,6 +4,6 @@ import com.intellij.psi.tree.TokenSet;
 
 public interface MirandaTokenSets {
 
-  TokenSet COMMENTS = TokenSet.create(MirandaTypes.COMMENT);
+    TokenSet COMMENTS = TokenSet.create(MirandaTypes.COMMENT);
 
 }

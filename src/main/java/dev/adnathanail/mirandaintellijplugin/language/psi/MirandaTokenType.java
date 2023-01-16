@@ -7,13 +7,13 @@ import org.jetbrains.annotations.NotNull;
 
 public class MirandaTokenType extends IElementType {
 
-  public MirandaTokenType(@NotNull @NonNls String debugName) {
-    super(debugName, MirandaLanguage.INSTANCE);
-  }
+    public MirandaTokenType(@NotNull @NonNls String debugName) {
+        super(debugName, MirandaLanguage.INSTANCE);
+    }
 
-  @Override
-  public String toString() {
-    return "SimpleTokenType." + super.toString();
-  }
+    @Override
+    public String toString() {
+        return "SimpleTokenType." + super.toString();
+    }
 
 }
