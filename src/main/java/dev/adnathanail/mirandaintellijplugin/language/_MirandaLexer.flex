@@ -9,13 +9,18 @@ import static dev.adnathanail.mirandaintellijplugin.language.psi.MirandaTypes.*;
 
 %%
 
-%class MirandaLexer
+%{
+  public _MirandaLexer() {
+    this((java.io.Reader)null);
+  }
+%}
+
+%public
+%class _MirandaLexer
 %implements FlexLexer
-%unicode
 %function advance
 %type IElementType
-%eof{  return;
-%eof}
+%unicode
 
 EOL=\R
 WHITE_SPACE=\s+
