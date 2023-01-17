@@ -24,6 +24,8 @@ public class MirandaSyntaxHighlighter extends SyntaxHighlighterBase {
             createTextAttributesKey("MIRANDA_NUMBER", DefaultLanguageHighlighterColors.NUMBER);
     public static final TextAttributesKey STRING =
             createTextAttributesKey("MIRANDA_STRING", DefaultLanguageHighlighterColors.STRING);
+    public static final TextAttributesKey CHAR =
+            createTextAttributesKey("MIRANDA_CHAR", DefaultLanguageHighlighterColors.NUMBER);
     public static final TextAttributesKey COMMENT =
             createTextAttributesKey("MIRANDA_COMMENT", DefaultLanguageHighlighterColors.LINE_COMMENT);
     public static final TextAttributesKey TYPEVAR =
@@ -38,6 +40,7 @@ public class MirandaSyntaxHighlighter extends SyntaxHighlighterBase {
     private static final TextAttributesKey[] IDENTIFIER_KEYS = new TextAttributesKey[]{IDENTIFIER};
     private static final TextAttributesKey[] NUMBER_KEYS = new TextAttributesKey[]{NUMBER};
     private static final TextAttributesKey[] STRING_KEYS = new TextAttributesKey[]{STRING};
+    private static final TextAttributesKey[] CHAR_KEYS = new TextAttributesKey[]{CHAR};
     private static final TextAttributesKey[] COMMENT_KEYS = new TextAttributesKey[]{COMMENT};
     private static final TextAttributesKey[] EMPTY_KEYS = new TextAttributesKey[0];
 
@@ -76,6 +79,9 @@ public class MirandaSyntaxHighlighter extends SyntaxHighlighterBase {
         }
         if (tokenType.equals(MirandaTypes.STRING)) {
             return STRING_KEYS;
+        }
+        if (tokenType.equals(MirandaTypes.CHAR)) {
+            return CHAR_KEYS;
         }
         if (tokenType.equals(MirandaTypes.COMMENT)) {
             return COMMENT_KEYS;
