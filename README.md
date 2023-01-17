@@ -1,8 +1,8 @@
 # miranda-intellij-plugin
 
 ![Build](https://github.com/adnathanail/miranda-intellij-plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/20871-miranda-language-support.svg)](https://plugins.jetbrains.com/plugin/20871-miranda-language-support)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/20871-miranda-language-support.svg)](https://plugins.jetbrains.com/plugin/20871-miranda-language-support)
 
 _Parser/Lexer heavily based on [dennisylyung/miranda-intellij](https://github.com/dennisylyung/miranda-intellij)_
 
@@ -18,8 +18,6 @@ This plugin adds syntax highlighting for the [Miranda language](https://www.cs.k
 
 ## To do list
 
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
 - [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
 - [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
 - [ ] Bring back Qodana
