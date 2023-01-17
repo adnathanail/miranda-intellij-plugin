@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+- Added comment keyboard shortcut `cmd + /` (`ctrl + /` on Windows)
+- Added settings page for syntax highlighting colours
+- Improved syntax highlighting
+
 ## [0.0.1] - 2023-01-16
 
 ### Added

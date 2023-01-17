@@ -13,10 +13,10 @@ This plugin adds syntax highlighting for the [Miranda language](https://www.cs.k
 ## Current functionality
 
 - Syntax highlighting
+- Go to reference
+- Comment keyboard shortcut (`cmd + /` / `ctrl + x`)
 
 ## To do list
-
-Implemented up to (not including) [PSI Helpers and Utilities](https://plugins.jetbrains.com/docs/intellij/psi-helper-and-utilities.html)
 
 - [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
 - [ ] Set the Plugin ID in the above README badges.
@@ -27,7 +27,16 @@ Implemented up to (not including) [PSI Helpers and Utilities](https://plugins.je
 
 ---
 
+- [ ] [Code completion](https://plugins.jetbrains.com/docs/intellij/completion-contributor.html)
 - [ ] [Run configuration support](https://plugins.jetbrains.com/docs/intellij/run-configurations.html?from=jetbrains.org#implement-a-run-configuration)
+- [ ] [Refactoring](https://plugins.jetbrains.com/docs/intellij/reference-contributor.html#define-a-refactoring-support-provider)
+- [ ] [Find usages](https://plugins.jetbrains.com/docs/intellij/find-usages-provider.html)
+- [ ] [Folding](https://plugins.jetbrains.com/docs/intellij/folding-builder.html)
+- [ ] [Go to symbol](https://plugins.jetbrains.com/docs/intellij/go-to-symbol-contributor.html)
+- [ ] [Structure view](https://plugins.jetbrains.com/docs/intellij/structure-view-factory.html) / [Structure aware navbar](https://plugins.jetbrains.com/docs/intellij/structure-aware-navbar.htm)
+- [ ] [Formatter](https://plugins.jetbrains.com/docs/intellij/formatter.html)
+- [ ] [Documentation](https://plugins.jetbrains.com/docs/intellij/documentation-provider.html)
+- [ ] [Spell check](https://plugins.jetbrains.com/docs/intellij/spell-checking-strategy.html)
 
 ## Installation
 

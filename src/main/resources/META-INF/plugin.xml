@@ -23,6 +23,10 @@
                 implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaSyntaxHighlighterFactory"/>
 
         <colorSettingsPage
-            implementation="dev.adnathanail.mirandaintellijplugin.language.MirandaColorSettingsPage"/>
+                implementation="dev.adnathanail.mirandaintellijplugin.language.MirandaColorSettingsPage"/>
+
+        <lang.commenter
+            language="Miranda"
+            implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaCommenter"/>
     </extensions>
 </idea-plugin>
