@@ -21,5 +21,8 @@
         <lang.syntaxHighlighterFactory
                 language="Miranda"
                 implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaSyntaxHighlighterFactory"/>
+
+        <colorSettingsPage
+            implementation="dev.adnathanail.mirandaintellijplugin.language.MirandaColorSettingsPage"/>
     </extensions>
 </idea-plugin>
