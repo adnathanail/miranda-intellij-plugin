@@ -7,6 +7,7 @@
 - Added comment keyboard shortcut `cmd + /` (`ctrl + /` on Windows)
 - Added settings page for syntax highlighting colours
 - Improved syntax highlighting
+- Add plugin logo
 
 ## [0.0.1] - 2023-01-16
 
