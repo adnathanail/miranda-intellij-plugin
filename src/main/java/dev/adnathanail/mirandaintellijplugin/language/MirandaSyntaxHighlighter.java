@@ -52,7 +52,32 @@ public class MirandaSyntaxHighlighter extends SyntaxHighlighterBase {
 
     @Override
     public TextAttributesKey @NotNull [] getTokenHighlights(IElementType tokenType) {
-        if (tokenType.toString().startsWith("OP")) {
+        if (tokenType.equals(MirandaTypes.OP_AND)
+                || tokenType.equals(MirandaTypes.OP_ARG)
+                || tokenType.equals(MirandaTypes.OP_BACK_FWD_SLASH)
+                || tokenType.equals(MirandaTypes.OP_DOT)
+                || tokenType.equals(MirandaTypes.OP_DOTS)
+                || tokenType.equals(MirandaTypes.OP_DOUBLE_ADD)
+                || tokenType.equals(MirandaTypes.OP_DOUBLE_EQ)
+                || tokenType.equals(MirandaTypes.OP_DOUBLE_MINUS)
+                || tokenType.equals(MirandaTypes.OP_EQ)
+                || tokenType.equals(MirandaTypes.OP_EXPONENT)
+                || tokenType.equals(MirandaTypes.OP_GENERATE)
+                || tokenType.equals(MirandaTypes.OP_GREATER)
+                || tokenType.equals(MirandaTypes.OP_GREATER_EQUAL)
+                || tokenType.equals(MirandaTypes.OP_HASH)
+                || tokenType.equals(MirandaTypes.OP_IS)
+                || tokenType.equals(MirandaTypes.OP_MINUS)
+                || tokenType.equals(MirandaTypes.OP_NOT)
+                || tokenType.equals(MirandaTypes.OP_ONEMORE)
+                || tokenType.equals(MirandaTypes.OP_OPT)
+                || tokenType.equals(MirandaTypes.OP_OR)
+                || tokenType.equals(MirandaTypes.OP_SIMILAR)
+                || tokenType.equals(MirandaTypes.OP_SMALLER)
+                || tokenType.equals(MirandaTypes.OP_SMALLER_EQUAL)
+                || tokenType.equals(MirandaTypes.OP_SNAKE_ADD)
+                || tokenType.equals(MirandaTypes.OP_SPEC)
+                || tokenType.equals(MirandaTypes.OP_ZEROMORE)) {
             return OPERATOR_KEYS;
         }
         if (tokenType.equals(MirandaTypes.ABSTYPE)
