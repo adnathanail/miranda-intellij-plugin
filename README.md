@@ -16,13 +16,12 @@ This plugin adds syntax highlighting for the [Miranda language](https://www.cs.k
 
 ## To do list
 
-Implemented up to (not including) [Define a Color Settings Page](https://plugins.jetbrains.com/docs/intellij/syntax-highlighter-and-color-settings-page.html#define-a-color-settings-page)
+Implemented up to (not including) [PSI Helpers and Utilities](https://plugins.jetbrains.com/docs/intellij/psi-helper-and-utilities.html)
 
 - [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
 - [ ] Set the Plugin ID in the above README badges.
 - [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
 - [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 - [ ] Add a plugin logo
 - [ ] Bring back Qodana
 
