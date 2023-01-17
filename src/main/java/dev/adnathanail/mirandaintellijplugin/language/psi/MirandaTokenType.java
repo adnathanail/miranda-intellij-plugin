@@ -13,7 +13,7 @@ public class MirandaTokenType extends IElementType {
 
     @Override
     public String toString() {
-        return "SimpleTokenType." + super.toString();
+        return "MirandaTokenType." + super.toString();
     }
 
 }

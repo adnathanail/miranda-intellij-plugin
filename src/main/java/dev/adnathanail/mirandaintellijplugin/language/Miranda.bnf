@@ -70,7 +70,7 @@
       FALSE='False'
       white_space='regexp:[ \t]+'
       line_ending='regexp:[;\r\n]+'
-      comment='regexp:\|\|.*[\r\n]+'
+      comment='regexp:\|\|.*[\r\n]*'
       char="regexp:'[^']?'"
       string='regexp:["][^"]*["]'
       number='regexp:\d+'

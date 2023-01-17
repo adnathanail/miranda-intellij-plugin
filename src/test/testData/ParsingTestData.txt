@@ -1,0 +1,2 @@
+Miranda File(0,7)
+  PsiComment(MirandaTokenType.comment)('|| test')(0,7)

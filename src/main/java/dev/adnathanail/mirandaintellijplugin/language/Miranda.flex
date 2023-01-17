@@ -22,7 +22,7 @@ WHITE_SPACE=\s+
 
 WHITE_SPACE=[ \t]+
 LINE_ENDING=[;\r\n]+
-COMMENT=\|\|.*[\r\n]+
+COMMENT=\|\|.*[\r\n]*
 CHAR='[^']?'
 STRING=[\"][^\"]*[\"]
 NUMBER=[0-9]+
