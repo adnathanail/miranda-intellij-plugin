@@ -1,8 +1,6 @@
 package dev.adnathanail.mirandaintellijplugin.runConfiguration;
 
 import com.intellij.openapi.options.SettingsEditor;
-import com.intellij.openapi.ui.LabeledComponent;
-import com.intellij.openapi.ui.TextFieldWithBrowseButton;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -10,16 +8,13 @@ import javax.swing.*;
 public class MirandaSettingsEditor extends SettingsEditor<MirandaRunConfiguration> {
 
   private JPanel myPanel;
-  private LabeledComponent<TextFieldWithBrowseButton> myScriptName;
 
   @Override
-  protected void resetEditorFrom(MirandaRunConfiguration demoRunConfiguration) {
-    myScriptName.getComponent().setText(demoRunConfiguration.getScriptName());
+  protected void resetEditorFrom(@NotNull MirandaRunConfiguration demoRunConfiguration) {
   }
 
   @Override
-  protected void applyEditorTo(@NotNull MirandaRunConfiguration mirandaRunConfiguration) {
-    mirandaRunConfiguration.setScriptName(myScriptName.getComponent().getText());
+  protected void applyEditorTo(@NotNull MirandaRunConfiguration demoRunConfiguration) {
   }
 
   @NotNull
@@ -27,10 +22,4 @@ public class MirandaSettingsEditor extends SettingsEditor<MirandaRunConfiguratio
   protected JComponent createEditor() {
     return myPanel;
   }
-
-  private void createUIComponents() {
-    myScriptName = new LabeledComponent<>();
-    myScriptName.setComponent(new TextFieldWithBrowseButton());
-  }
-
 }
