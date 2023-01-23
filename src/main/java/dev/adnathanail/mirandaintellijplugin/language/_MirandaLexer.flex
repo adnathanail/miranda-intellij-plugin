@@ -31,8 +31,8 @@ COMMENT=\|\|.*[\r\n]*
 CHAR='[^']?'
 STRING=[\"][^\"]*[\"]
 NUMBER=[0-9]+
-IDENTIFIER_LOWER=[a-z][a-zA-Z0-9]*
-IDENTIFIER_UPPER=[A-Z][a-zA-Z0-9]*
+IDENTIFIER_LOWER=[a-z][a-zA-Z0-9_]*
+IDENTIFIER_UPPER=[A-Z][a-zA-Z0-9_]*
 PATHNAME=('[^'\s]+')|(\<[^>\s]+\>)
 
 %%
