@@ -18,7 +18,6 @@ This plugin adds syntax highlighting for the [Miranda language](https://www.cs.k
 
 ## To do list
 
-- [ ] Bring back Qodana
 - [ ] [Code completion](https://plugins.jetbrains.com/docs/intellij/completion-contributor.html)
 - [ ] [Run configuration support](https://plugins.jetbrains.com/docs/intellij/run-configurations.html?from=jetbrains.org#implement-a-run-configuration)
 - [ ] [Refactoring](https://plugins.jetbrains.com/docs/intellij/reference-contributor.html#define-a-refactoring-support-provider)
