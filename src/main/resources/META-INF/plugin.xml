@@ -28,5 +28,8 @@
         <lang.commenter
             language="Miranda"
             implementationClass="dev.adnathanail.mirandaintellijplugin.language.MirandaCommenter"/>
+
+        <configurationType
+            implementation="dev.adnathanail.mirandaintellijplugin.runConfiguration.MirandaRunConfigurationType"/>
     </extensions>
 </idea-plugin>
